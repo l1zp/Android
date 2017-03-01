@@ -6,10 +6,10 @@ You need to use a Theme.AppCompat theme (or descendant) with this activity
 
 ```
 将DialogActivity中
-```
+```java
 public class DialogActivity extends AppCompatActivity
 ```
 改为
-```
+```java
 public class DialogActivity extends Activity
 ```
