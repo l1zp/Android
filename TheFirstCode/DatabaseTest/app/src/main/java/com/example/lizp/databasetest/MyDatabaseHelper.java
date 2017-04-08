@@ -33,7 +33,6 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
         //Toast.makeText(mContext, "hello", Toast.LENGTH_SHORT).show();
         sqLiteDatabase.execSQL(CREATE_BOOK);
         sqLiteDatabase.execSQL(CREATE_CATEGORY);
-        Toast.makeText(mContext, "Create succeed", Toast.LENGTH_SHORT).show();
     }
 
     @Override
