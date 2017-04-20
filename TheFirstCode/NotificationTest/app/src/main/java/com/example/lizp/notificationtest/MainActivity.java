@@ -39,6 +39,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         .setContentIntent(pi)
                         .setAutoCancel(true)
                         .setVibrate(new long[] {0, 1000, 1000, 1000})
+                        .setStyle(new NotificationCompat.BigTextStyle().bigText("Learn how to build" +
+                                "notifications, send and sync data, and use voice actions. Get the official" +
+                                "Android IDE and developer tools to build apps for Android."))
+                        .setPriority(NotificationCompat.PRIORITY_MAX)
                         .build();
                 manager.notify(1, notification);
                 break;
